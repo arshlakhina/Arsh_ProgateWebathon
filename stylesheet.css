@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color:rgb(43, 255, 202);
+    height:81px;
+    width:100%;
+}
+
+.header-left{
+    float:left;
+}
+
+.header-right{
+    float:right;
+    height:50px;
+}
+
+.header-right li{
+    list-style-type:none;
+    float:left;
+    padding:14px 15px;
+    font-size:17px;
+    padding-bottom:8px;
+}
+
+.header-right li:hover{
+    font-size:20px;
+    padding:9px 15px;
+    color:red;
+}
+
+.About{
+    padding-top:90px;
+    margin-right:180px;
+}
+
+.img1{
+    height:76px;
+    width:99px;
+}
+
+.img2{
+    margin:100px 70px;
+    height:220px;
+    width:190px;
+    border:2px solid black;
+}
+
+.About h1{
+    text-align:center;
+    font-size:40px;
+}
+
+.About h2{
+    text-align:center;
+    font-size:30px;
+
+}
+
+.arsh{
+    display:flex;
+    justify-content: center;
+}
+
+.AboutMe{
+    margin:0px 0px;
+    padding:20px 50px;
+    text-align: center;
+    background-color: rgb(10, 24, 26);
+    
+
+}
+
+.AboutMe p{
+    color: white;
+    padding:20px 20px;
+}
+
+.AboutMe h1{
+    color:rgb(0, 68, 255);
+    font-size:32px;
+}
+
+span{
+    color:red;
+}
+
+.Contents{
+    display:flex;
+    justify-content: space-around;
+    background-image:url("https://images.assetsdelivery.com/compings_v2/panupong1991/panupong19911406/panupong1991140600029.jpg");
+    background-size: cover;
+    width:100%;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    height:30px;    
+}
+
+footer p{
+    text-align:center;
+    padding:5px 4px;
+    margin:0 ;
+}
+
+.Hobbies h1{
+    margin-top:50px;
+    color:red;
+    text-align: left; 
+    margin-right:400px;
+    font-size:32px;
+}
+
+.Hobbies li{
+    color:rgb(0, 4, 226);
+    text-align: left; 
+    font-size:20px;
+    list-style-type:circle
+}
+
+.Achievements h1{
+    margin-top:50px;
+    color:red;
+    text-align: left;
+    font-size:32px;
+}
+
+.Achievements li{
+    color:rgb(0, 4, 226);
+    text-align: left; 
+    font-size:20px;
+    list-style-type:circle;
+}
+
+.ContactMe h2{
+    margin-top:70px;
+    color:red;
+    text-align:center; 
+    font-size:32px;
+}
+
+.Socialmedia{
+    display:flex;
+    justify-content:center;
+}
+
+
+.linkedin,.github{
+    font-size:17px;
+    padding-bottom:100px;
+    padding-right:15px;
+}
+
+
+.contents{
+    display:flex;
+    justify-content:center;
+}
+
+.whole{
+    background-image:url("https://images.assetsdelivery.com/compings_v2/panupong1991/panupong19911406/panupong1991140600029.jpg");
+    background-size: cover;
+    padding-top:40px;
+}
+
+.linkedinimg{
+    padding-left:12px;
+}
